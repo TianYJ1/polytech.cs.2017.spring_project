@@ -49,9 +49,9 @@ void Init_Disp()
         mvaddch(BOT_ROW, j, wall);  
     }  
     attroff(A_REVERSE);     /* turn off REVERSE */  
-    mvaddstr(1, 2, "Game: snake   good luck ;)");  
-    mvaddstr(2, 2, "Author: Caiyingying Tianyajing Sunjinghui   ");  
-    mvaddstr(3, 2, "Usage: Press 'f' to speed up, 's' to speed down,'q' to quit.");  
+    mvaddstr(1, 2, "snake");  
+    mvaddstr(2, 2, "good luck ;)");  
+    mvaddstr(3, 2, "Press 'f' to speed up, 's' to speed down,'q' to quit.");  
     mvaddstr(4, 2, "       Nagivation key controls snake moving.");  
     refresh();  
 }  
